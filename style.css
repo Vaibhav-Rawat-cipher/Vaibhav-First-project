@@ -1,0 +1,157 @@
+html{
+    scroll-behavior: smooth;
+    background-image: url(./images/lnmiit.jpeg);
+}
+@keyframes blink{
+    50%{
+        opacity: 0;
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2d1e6b;
+
+    header{
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            -webkit-text-fill-color: rgb(255, 170, 0);
+        }
+    }
+    
+}
+main{
+    h1{
+        text-align: left;
+        color: chartreuse;
+        background-color: rgb(201, 163, 113);
+        animation: blink 1s linear
+        infinite ;
+    }
+    h2{
+        text-emphasis-color: rgb(80, 151, 103) ;
+        color: aquamarine;
+        text-align: left;
+    }
+    h3{
+        color: darkred;
+        animation: blink 1s linear
+        infinite ;
+    }
+}
+#header{
+    position:static;
+    width: 96%;
+    overflow: hidden;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px 30px;
+    background-color: #415096;
+    box-shadow: 0 10px 20px rgb(5, 0, 0);
+  }
+  #navbar{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }  
+
+  #navbar li{
+    list-style: none; 
+    padding: 0 20px;
+    position: relative;
+  }
+  
+  #navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    transition: 0.3s ease
+  }
+#navbar2{
+    justify-content:center ;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+
+    background-color: rgb(236, 236, 236);
+}
+clubs{
+    padding: 40px 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  mpp{
+    h1{
+        color: aliceblue
+        ;
+        animation: blink 1s linear infinite;
+    }
+  }
+  #featuredclubs .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+  }
+  
+  #featuredclubs .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(150, 149, 170, 0.1);
+  }
+  
+  #featuredclubs .fe-box h6{
+    display: in-block;
+    padding: 10px 12px 8px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #fddde4;
+  }
+  
+  #featuredclubs .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+      
+  }
+    
+  #featuredclubs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  
+  #featuredcubs .fe-box:nth-child(2) h6{
+    background-color: #cdebbc;
+  }
+  
+  
+  #featuredclubs .fe-box:nth-child(3) h6{
+    background-color: #d1e8f2;
+  }
+  
+  #featuredclubs .fe-box:nth-child(4) h6{
+    background-color: #cdd4f8;
+  }
+  
+  #featuredclubs .fe-box:nth-child(5) h6{
+    background-color: #f6dbf6;
+  }
+  
+  #featuredclubs .fe-box:nth-child(6) h6{
+    background-color: #fff2e5;
+  }
+  footer{
+    background-color: #946c6c;
+  }
